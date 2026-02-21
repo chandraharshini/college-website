@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1><center>Central Saint Martins (CSM), University of the Arts</center></h1>
+</head>
+<body>
+     <nav>
+        <h3>
+
+        <a href="home.html"><button>Home</a></button>|
+        <a href="Coures.html"><button>Course</a></button>|
+        <a href="Syllabus.html"><button>Syllabus</a></button>|
+        <a href="intenships.html"><button>intenships</a></button>|
+        <a href="video.html"><button>video</a></button>|
+        <a href="Articals.html"><button>Articles</button></a>
+        <a href="Rules.html"><button>Rules</a></button>|
+        <a href="feedback form.html"><button>Feedback Form</button></a>
+        </h3>
+
+    <h1>College Experience Feedback Form</h1>
+    <p>Please fill out this form to help us improve the campus experience.</p>
+
+    <form action="/submit_feedback" method="post">
+        
+        <fieldset>
+            <legend><h3>>Student Information</h3></legend>
+            <label for="student_name">Full Name:</label><br>
+            <input type="text" id="student_name" name="student_name" required><br><br>
+
+            <label for="student_id">Student ID:</label><br>
+            <input type="text" id="student_id" name="student_id" required><br><br>
+
+            <label for="department">Department/Major:</label><br>
+            <select id="department" name="department">
+                <option value="B.DES(Bachelor of Design)">Bachelor of Design></option>
+        <option value="B.Sc/B.A.in Fashion Design">Fashion Design</option>
+        <option value="B.F(Bachelor of Fashion Technology)">Bachelor of Fashion Technology</option>
+        <option value="Specialized Degrees(B.sc/B.Des)">Specialized Degrees</option>
+        <option value="Certificate Courses(3months-1Year)">Specialized Degrees</option>
+        <option values="MA/M.Sc in Fashion Design(2years)">MA/M.Sc in Fashion Design</option>
+        <option Values="MBA in Fashion on Merchandising/Textiles Management">Fashion on Merchandising/Textiles Management</option>
+        <option values="Diploma & Advanced Diploma Course(1-2 Years)">Diploma & Advanced Diploma Course</option>
+
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h3>Academic Evaluation</h3></legend>
+            <p>How would you rate the quality of teaching?</p>
+            <input type="radio" id="teach_excellent" name="teaching_quality" value="excellent">
+            <label for="teach_excellent">Excellent</label><br>
+            <input type="radio" id="teach_good" name="teaching_quality" value="good">
+            <label for="teach_good">Good</label><br>
+            <input type="radio" id="teach_fair" name="teaching_quality" value="fair">
+            <label for="teach_fair">Fair</label><br>
+            <input type="radio" id="teach_poor" name="teaching_quality" value="poor">
+            <label for="teach_poor">Poor</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h3>Facilities & Infrastructure</h3></legend>
+            <p>Which facilities do you use regularly? (Check all that apply)</p>
+            
+
+            <label for="fac_library">Library</label><br>
+            <input type="checkbox" id="GCL Lab" name="facilities" value=" GC labs">
+            <label for="fac_labs">Computer Labs</label><br>
+            <input type="checkbox" id="PM&DS" name="facilities" value="PM&DS">
+            <label for="DS &CAD"> ds&CAD</label><br>
+            <input type="checkbox" id="DS&CAD" name="facilities" value="DS&CAD">
+            <label for="fac_canteen">Canteen/Cafeteria</label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><h3>Additional Feedback</h3></legend>
+            <label for="comments">What is one thing we could improve?</label><br>
+            <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Enter your suggestions here..."></textarea>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit Review">
+        <input type="reset" value="Clear Form">
+        <footer>
+        <strong><!--  -->
+        @2026 copyrights chandra harshini
+        </strong>
+    </footer>
+</center>
+<p>  <strong> <end>it is done by chandra harshini</end></strong></p>
+<center>
+
+    </form>
+
+</body>
+</html>
